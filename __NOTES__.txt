@@ -1,0 +1,49 @@
+
+null typesystem
+========================================================================
+
+extension methods
+========================================================================
+* use them "by layer" (add methods for UI/DB)
+* instead "isItSomething(extractBar(foo))" do a "foo.extractBar().isItSomething()", turn right2left into left2right
+
+generics
+========================================================================
+* reified
+* out vs in
+* declaration vs site
+
+
+delegation
+========================================================================
+* "by" ...
+
+
+sealed classes (a.k.a. algebraic datastructures)
+========================================================================
+* not as powerful as in haskell, no destructuring
+
+operator overloading
+========================================================================
+* there are lots of them available: operator fun ...()
+* like to do arithmetic, or [] accessor, or provideDelegate
+
+reflection API
+========================================================================
+
+collection API
+========================================================================
+
+create your own dsl
+========================================================================
+
+
+some functional fun
+========================================================================
+* apply, let
+
+
+LINKS
+========================================================================
+* nat pryce video: https://www.youtube.com/watch?v=p-AOjgobGR8
+* kotlin type hierarchy: http://www.natpryce.com/
