@@ -1,4 +1,7 @@
 
+
+inline vs noinline keyword
+
 null typesystem
 ========================================================================
 
@@ -17,16 +20,25 @@ generics
 delegation
 ========================================================================
 * "by" ...
-
+-> http://kotlinlang.org/docs/reference/delegated-properties.html
 
 sealed classes (a.k.a. algebraic datastructures)
 ========================================================================
 * not as powerful as in haskell, no destructuring
 
+infix functions
+========================================================================
+* get rid of dots
+
 operator overloading
 ========================================================================
 * there are lots of them available: operator fun ...()
 * like to do arithmetic, or [] accessor, or provideDelegate
+* operatur fun provideDelegate => do the "by" thing
+
+annotation processing with kapt
+========================================================================
+* apply plugin: 'kotlin-kapt'
 
 reflection API
 ========================================================================
