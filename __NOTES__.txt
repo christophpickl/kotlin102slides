@@ -1,6 +1,8 @@
 
 
-inline vs noinline keyword
+* inline vs noinline keyword; crossinline
+* Sequence class
+
 
 null typesystem
 ========================================================================
