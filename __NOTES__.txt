@@ -2,6 +2,7 @@
 
 * inline vs noinline keyword; crossinline
 * Sequence class
+* kdoc
 
 
 null typesystem
